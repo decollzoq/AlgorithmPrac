@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class p6 {
+    // 백준 p2018
     public static void main(String[] args){
         int N = new Scanner(System.in).nextInt();
         int start = 1;
