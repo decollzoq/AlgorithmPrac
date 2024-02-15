@@ -19,7 +19,7 @@ public class p10 {
 
         for(int i = 0; i < N; i++){
             int now = Integer.parseInt(st.nextToken()); // 새로운 값
-            
+
             // 덱에 마지막부터 새로운 값과 비교하여 새로운 값보다 큰 경우 덱에서 제거하기
             while(!deq.isEmpty() && deq.getLast().value > now){
                 deq.removeLast();
