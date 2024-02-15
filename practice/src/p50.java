@@ -35,7 +35,7 @@ public class p50 {
             return n;
         }
         else {
-            return find(arr[n]);
+            return arr[n] = find(arr[n]);
         }
     }
 
