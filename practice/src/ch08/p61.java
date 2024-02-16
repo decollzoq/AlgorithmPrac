@@ -17,7 +17,7 @@ public class p61 {
         for(int i = 1; i <= n; i++){
             for(int j = 1; j <= n; j++){
                 if(i == j) distance[i][j] = 0;      // 인접 행렬 초기화
-                else distance[i][j] = 10000001;
+                else distance[i][j] = 10000001;     // Integer.VALUE_MAX 로 초기화하면 overflow 발생
             }
         }
 
