@@ -1,3 +1,5 @@
+package ch04;
+
 import java.util.Scanner;
 
 public class p15 {

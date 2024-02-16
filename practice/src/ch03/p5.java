@@ -1,4 +1,5 @@
-import java.sql.SQLNonTransientConnectionException;
+package ch03;
+
 import java.util.Scanner;
 public class p5 {
     // 백준 p10986

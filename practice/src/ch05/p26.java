@@ -1,4 +1,5 @@
-import java.awt.*;
+package ch05;
+
 import java.util.*;
 
 public class p26 {

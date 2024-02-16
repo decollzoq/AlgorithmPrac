@@ -1,3 +1,5 @@
+package ch03;
+
 import java.util.Scanner;
 public class p1 {
     // 백준 p11720

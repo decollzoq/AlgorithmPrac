@@ -1,3 +1,5 @@
+package ch03;
+
 import java.util.Scanner;
 public class p6 {
     // 백준 p2018

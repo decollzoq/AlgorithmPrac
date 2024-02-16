@@ -1,3 +1,5 @@
+package ch08;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -62,16 +64,18 @@ public class p56 {
 
 
     }
-    static class Edge implements Comparable<Edge>{
-        int vertex, value;
-        Edge(int vertex, int value){
-            this.vertex = vertex;
-            this.value = value;
-        }
-        /* 우선순위 큐를 위해 두 엣지를 비교하는 compareTo 추가 */
-        public int compareTo(Edge e){
-            if(this.value > e.value) return 1;
-            else return -1;
-        }
+
+}
+class Edge implements Comparable<Edge>{
+    int vertex, value;
+    Edge(int vertex, int value){
+        this.vertex = vertex;
+        this.value = value;
+    }
+    /* 우선순위 큐를 위해 두 엣지를 비교하는 compareTo 추가 */
+    public int compareTo(Edge e){
+        if(this.value > e.value) return 1;
+        else return -1;
     }
 }
+

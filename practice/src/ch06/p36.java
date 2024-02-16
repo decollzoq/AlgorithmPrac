@@ -1,3 +1,5 @@
+package ch06;
+
 import java.util.Scanner;
 
 public class p36 {
