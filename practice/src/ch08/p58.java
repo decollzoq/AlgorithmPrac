@@ -68,9 +68,7 @@ public class p58 {
         bw.close();
         bf.close();
     }
-}
-
-    class Node implements Comparable<Node>{
+    static class Node implements Comparable<Node>{
         int node;
         int cost;
         Node(int n, int c){
@@ -83,6 +81,8 @@ public class p58 {
             return this.cost < o.cost ? -1 : 1;
         }
     }
+
+}
 
 
 
